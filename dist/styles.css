@@ -39,7 +39,7 @@ h6 {
 body {
   text-align: center;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: MesloLGS, sans-serif;
   font-weight: 700;
 }
@@ -52,12 +52,19 @@ body {
   justify-content: center;
   background-color: #1d1d1d;
 }
+.container .options {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
 button {
   cursor: pointer;
   font-family: inherit;
   font-weight: 700;
-  font-size: 5rem;
+  font-size: 4rem;
+  margin: 0.1rem;
   padding: 1rem 2rem;
   border: 0;
   border-radius: 0.5rem;
