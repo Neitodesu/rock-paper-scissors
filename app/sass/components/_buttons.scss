@@ -1,0 +1,18 @@
+@use '../utils' as u;
+
+button {
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: u.$fw-bold;
+	font-size: 5rem;
+	padding: 1rem 2rem;
+	border: 0;
+	border-radius: 0.5rem;
+	transition: 50ms ease-in-out;
+
+	&:hover {
+		// background-color: #333;
+		// color: #fff;
+		transform: scale(1.05);
+	}
+}
